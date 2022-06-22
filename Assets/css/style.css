@@ -1,0 +1,342 @@
+@import url('https://fonts.googleapis.com/css2?family=Gloria+Hallelujah&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    box-sizing: border-box;
+    font-family: 'Gloria Hallelujah', cursive;
+
+}
+
+body {
+    font-size: 15px;
+    background-image: url(https://wallpaper-mania.com/wp-content/uploads/2018/09/High_resolution_wallpaper_background_ID_77701928318.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/* Navbar */
+header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.navbar {
+    display: flex;
+    margin: 10px;
+}
+
+.name {
+    font-size: 2.2rem;
+    color: #ffffffef;
+    font-weight: bold;
+    font-family: 'Fredoka One', cursive;
+}
+
+.navbar ul {
+    display: flex;
+}
+
+.navbar ul li {
+    margin-left: 25px;
+}
+
+.navbar a {
+    color: #ffffffef;
+    font-size: 1.8rem;
+    font-weight: bold;
+    background-color: rgba(0, 0, 0, 0.376);
+    border-radius: 0 25px 0 25px;
+    padding: 5px;
+}
+.navbar h1,ul{
+    margin-top: 7%;
+}
+
+
+
+/* Banner and picture */
+
+.banner p {
+    color: white;
+    font-weight: 600px;
+    font-size: 3.5rem;
+    text-align: center;
+}
+
+/*Liners  start*/
+.aboutme {
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    align-items: center;
+    padding: 90px;
+    font-weight: 900;
+    font-size: 20px;
+}
+
+/* about me */
+.aboutme img {
+    border-radius: 400px;
+    border: 10px solid rgba(128, 128, 128, 0.392);
+}
+
+.aboutme-text {
+    display: flex;
+
+    justify-content: center;
+
+    flex-wrap: wrap;
+    padding-left: 90px;
+
+}
+
+.aboutme h2 {
+    color: white;
+    border-right: 6px solid white;
+    padding-bottom: 100px;
+    padding-right: 15px;
+
+}
+
+
+
+/* Work  start*/
+.work {
+    color: white;
+    display: flex;
+    flex: content;
+    align-items: center;
+    font-size: 20px;
+    justify-content: space-between;
+    color: white;
+    align-items: center;
+    padding: 90px;
+    font-weight: 900;
+
+
+}
+
+.work-text {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    border-right: 6px solid white;
+    padding-bottom: 100px;
+    padding-right: 15px;
+
+}
+
+.work img {
+    border: 6px collapse white;
+    border-radius: 0 25px 0 25px;
+    background-color: blue;
+}
+
+
+/* Background imgs start */
+#solarcod-img {
+
+    width: 400px;
+    height: 500px;
+    border: 6px solid rgba(7, 135, 155, 0.782);
+
+}
+
+#run-buddy-img {
+
+    width: 400px;
+    height: 500px;
+    border: 6px solid rgba(7, 135, 155, 0.782);
+
+}
+
+#horiseon-img {
+
+    width: 400px;
+    height: 500px;
+    border: 6px solid rgba(7, 135, 155, 0.782);
+
+}
+
+.work img:hover {
+    width: 550px;
+    height: 550px;
+}
+
+/* Brands Inner div*/
+.small-h {
+
+    width: 100%;
+    font-size: 30px;
+    color: rgb(79, 167, 189);
+    font-family: 'Fredoka One', cursive;
+    display: flex;
+    justify-content: space-between;
+
+    margin-top: -80px;
+}
+
+.work p {
+    color: rgba(0, 0, 0, 0.609);
+    background-color: rgba(255, 255, 255, 0.553);
+    border-radius: 25px;
+}
+
+.work h3 {
+    color: rgba(255, 255, 255, 0.609);
+    background-color: rgba(0, 0, 0, 0.74);
+    border-radius: 25px;
+}
+
+/* Contact Informations  start*/
+.contactme {
+    display: flex;
+    justify-content: space-around;
+    color: white;
+    align-items: center;
+    padding: 90px;
+    font-weight: 700px;
+    font-size: 20px;
+
+}
+
+.aside {
+    color: white;
+    border-right: 6px solid white;
+    padding-bottom: 100px;
+    margin-left: -90px;
+
+
+}
+
+.contactme ul li {
+    margin-left: 100px;
+    background-color: rgb(1, 10, 11);
+    display: inline;
+    justify-content: center;
+
+}
+
+.contactme a {
+    color: white;
+}
+
+.mail-to {
+    margin-left: 30%;
+}
+/*contact informations end*/
+/*liners end*/
+
+/*@media querys Start*/
+
+
+@media only screen and (max-width:800px) {
+    .navbar {
+        flex-direction: column;
+    }
+
+    .navbar ul li {
+        margin-left: 0px;
+    }
+
+    .navbar h1 {
+        text-align: center;
+    }
+
+    .navbar a {
+        font-size: 1.5rem;
+    }
+    .navbar img{
+        margin: auto;
+    }
+    .aboutme {
+        flex-direction: column;
+        margin-top: 15px;
+    }
+    .aboutme h2 {
+        border-right: none;
+        border-bottom: 4px solid white;
+        padding-bottom: 10px;
+    }
+    .aboutme p {
+        padding-top: 8vw;
+        padding-bottom: 8vw;
+    }
+    .work {
+        flex-direction: column;
+    }
+    .work-text{
+        border-right: none;
+        border-bottom: 4px solid white;
+        padding-bottom: 10px;
+        margin-bottom: 35px;
+    }
+    .work img:hover{
+        width: 450px;
+    }
+    .contactme{
+        flex-direction: column;
+    }
+    .aside{
+        border-right: none;
+        border-bottom: 4px solid white;
+        padding-bottom: 10px;
+        margin-bottom: 35px;
+    }
+    .contactme ul{
+        margin-right: 28vw;
+    }
+}
+
+@media only screen and (max-width:1000px){
+    .aboutme{
+        flex-direction: column;
+    }
+    .aboutme h2 {
+        border-right: none;
+        border-bottom: 4px solid white;
+        padding-bottom: 10px;
+        margin-bottom: 25px;
+    }
+    .aboutme-text{
+        margin-bottom: 25px;
+    }
+}
+
+@media only screen and (max-width:1550px){
+    .work{
+        flex-direction: column;
+    }
+    .work-text{
+        border-right: none;
+        border-bottom: 4px solid white;
+        padding-bottom: 10px;
+        margin-bottom: 35px;
+    }
+    .solarcod{
+        padding-bottom: 25px;
+    }
+    .horiseon{
+        padding-bottom: 25px;
+    }
+    .runbuddy{
+        padding-bottom: 25px;
+    }
+    .contactme{
+        flex-direction: column;
+    }
+    .aside{
+        border-right: none;
+        border-bottom: 4px solid white;
+        padding-bottom: 10px;
+        margin-bottom: 35px;
+    }
+}
+
+
+
+/*@media querys End*/
